@@ -19,6 +19,12 @@
 		1F7902F1162C8DB200D67649 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F7902EF162C8DB200D67649 /* MainStoryboard.storyboard */; };
 		1F7902F4162C8DB200D67649 /* RemMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7902F3162C8DB200D67649 /* RemMasterViewController.m */; };
 		1F7902F7162C8DB200D67649 /* RemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7902F6162C8DB200D67649 /* RemDetailViewController.m */; };
+		1F7902FF162C8DDF00D67649 /* RemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7902FE162C8DDF00D67649 /* RemModel.m */; };
+		1F790302162C8F6900D67649 /* RemEventDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F790301162C8F6900D67649 /* RemEventDetailCell.m */; };
+		1F790304162C90E600D67649 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F790303162C90E600D67649 /* up.png */; };
+		1F790306162C90EE00D67649 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F790305162C90EE00D67649 /* background.png */; };
+		1F790308162C916600D67649 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F790307162C916600D67649 /* EventKit.framework */; };
+		1F79030E162E08FD00D67649 /* check_mark.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1F79030D162E08FD00D67649 /* check_mark.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +46,14 @@
 		1F7902F3162C8DB200D67649 /* RemMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemMasterViewController.m; sourceTree = "<group>"; };
 		1F7902F5162C8DB200D67649 /* RemDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemDetailViewController.h; sourceTree = "<group>"; };
 		1F7902F6162C8DB200D67649 /* RemDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemDetailViewController.m; sourceTree = "<group>"; };
+		1F7902FD162C8DDF00D67649 /* RemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemModel.h; sourceTree = "<group>"; };
+		1F7902FE162C8DDF00D67649 /* RemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemModel.m; sourceTree = "<group>"; };
+		1F790300162C8F6900D67649 /* RemEventDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemEventDetailCell.h; sourceTree = "<group>"; };
+		1F790301162C8F6900D67649 /* RemEventDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemEventDetailCell.m; sourceTree = "<group>"; };
+		1F790303162C90E600D67649 /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up.png; sourceTree = "<group>"; };
+		1F790305162C90EE00D67649 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		1F790307162C916600D67649 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		1F79030D162E08FD00D67649 /* check_mark.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = check_mark.jpeg; path = ../../../../Desktop/check_mark.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F790308162C916600D67649 /* EventKit.framework in Frameworks */,
 				1F7902D8162C8DB200D67649 /* UIKit.framework in Frameworks */,
 				1F7902DA162C8DB200D67649 /* Foundation.framework in Frameworks */,
 				1F7902DC162C8DB200D67649 /* CoreGraphics.framework in Frameworks */,
@@ -59,6 +74,7 @@
 		1F7902C8162C8DB200D67649 = {
 			isa = PBXGroup;
 			children = (
+				1F790307162C916600D67649 /* EventKit.framework */,
 				1F7902DD162C8DB200D67649 /* RemSpy */,
 				1F7902D6162C8DB200D67649 /* Frameworks */,
 				1F7902D4162C8DB200D67649 /* Products */,
@@ -86,6 +102,10 @@
 		1F7902DD162C8DB200D67649 /* RemSpy */ = {
 			isa = PBXGroup;
 			children = (
+				1F790300162C8F6900D67649 /* RemEventDetailCell.h */,
+				1F790301162C8F6900D67649 /* RemEventDetailCell.m */,
+				1F7902FD162C8DDF00D67649 /* RemModel.h */,
+				1F7902FE162C8DDF00D67649 /* RemModel.m */,
 				1F7902E6162C8DB200D67649 /* RemAppDelegate.h */,
 				1F7902E7162C8DB200D67649 /* RemAppDelegate.m */,
 				1F7902EF162C8DB200D67649 /* MainStoryboard.storyboard */,
@@ -101,6 +121,9 @@
 		1F7902DE162C8DB200D67649 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1F79030D162E08FD00D67649 /* check_mark.jpeg */,
+				1F790305162C90EE00D67649 /* background.png */,
+				1F790303162C90E600D67649 /* up.png */,
 				1F7902DF162C8DB200D67649 /* RemSpy-Info.plist */,
 				1F7902E0162C8DB200D67649 /* InfoPlist.strings */,
 				1F7902E3162C8DB200D67649 /* main.m */,
@@ -169,6 +192,9 @@
 				1F7902EC162C8DB200D67649 /* Default@2x.png in Resources */,
 				1F7902EE162C8DB200D67649 /* Default-568h@2x.png in Resources */,
 				1F7902F1162C8DB200D67649 /* MainStoryboard.storyboard in Resources */,
+				1F790304162C90E600D67649 /* up.png in Resources */,
+				1F790306162C90EE00D67649 /* background.png in Resources */,
+				1F79030E162E08FD00D67649 /* check_mark.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +209,8 @@
 				1F7902E8162C8DB200D67649 /* RemAppDelegate.m in Sources */,
 				1F7902F4162C8DB200D67649 /* RemMasterViewController.m in Sources */,
 				1F7902F7162C8DB200D67649 /* RemDetailViewController.m in Sources */,
+				1F7902FF162C8DDF00D67649 /* RemModel.m in Sources */,
+				1F790302162C8F6900D67649 /* RemEventDetailCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

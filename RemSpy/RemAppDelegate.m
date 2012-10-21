@@ -7,12 +7,19 @@
 //
 
 #import "RemAppDelegate.h"
+#import "RemModel.h"
+#import "RemMasterViewController.h"
 
 @implementation RemAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
+    RemMasterViewController *firstViewController = (RemMasterViewController *)[[navigationController viewControllers] objectAtIndex:0];
+    
+    RemModel *aDataController = [[RemModel alloc] init];
+    firstViewController.model = aDataController;
+    firstViewController.navControl = navigationController;
     return YES;
 }
 							

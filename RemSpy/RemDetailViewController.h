@@ -7,10 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RemEventDetailCell.h"
+#import <EventKit/EventKit.h>
+#import "RemModel.h"
 
-@interface RemDetailViewController : UIViewController
+@interface RemDetailViewController : UITableViewController
 
-@property (strong, nonatomic) id detailItem;
+@property (strong, nonatomic) RemModel *model;
+@property (strong, nonatomic) NSArray *reminders;
+@property (weak, nonatomic) IBOutlet UINavigationItem *remindersTitle;
+- (IBAction)sendReminders:(id)sender;
 
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 @end
