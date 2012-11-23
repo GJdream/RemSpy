@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F2DF12D1636C19F004B96C8 /* SpyReminder_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F2DF12C1636C19F004B96C8 /* SpyReminder_icon.png */; };
 		1F7902D8162C8DB200D67649 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F7902D7162C8DB200D67649 /* UIKit.framework */; };
 		1F7902DA162C8DB200D67649 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F7902D9162C8DB200D67649 /* Foundation.framework */; };
 		1F7902DC162C8DB200D67649 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F7902DB162C8DB200D67649 /* CoreGraphics.framework */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F2DF12C1636C19F004B96C8 /* SpyReminder_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpyReminder_icon.png; sourceTree = "<group>"; };
 		1F7902D3162C8DB200D67649 /* RemSpy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemSpy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F7902D7162C8DB200D67649 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1F7902D9162C8DB200D67649 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -121,6 +123,7 @@
 		1F7902DE162C8DB200D67649 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1F2DF12C1636C19F004B96C8 /* SpyReminder_icon.png */,
 				1F79030D162E08FD00D67649 /* check_mark.jpeg */,
 				1F790305162C90EE00D67649 /* background.png */,
 				1F790303162C90E600D67649 /* up.png */,
@@ -195,6 +198,7 @@
 				1F790304162C90E600D67649 /* up.png in Resources */,
 				1F790306162C90EE00D67649 /* background.png in Resources */,
 				1F79030E162E08FD00D67649 /* check_mark.jpeg in Resources */,
+				1F2DF12D1636C19F004B96C8 /* SpyReminder_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +331,7 @@
 				1F7902FC162C8DB200D67649 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

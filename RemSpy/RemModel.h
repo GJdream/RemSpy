@@ -13,7 +13,7 @@
 
 - (NSArray *)retrieveAllRemindersLists;
 - (void)retrieveRemindersFromList:(EKCalendar *)cal withCompletion:(void (^)(NSArray *))completion;
-- (void)sendReminders:(NSArray *)reminders;
+- (void)sendReminders:(NSArray *)reminders WithCallback:(void (^)(void))callback;
 //- (NSArray *)retrieveRemindersFromCalendar:(EKCalendar *)calendar;
 //@property (nonatomic, strong) NSArray *currentReminders;
 

@@ -125,6 +125,15 @@
 
 
 - (IBAction)sendReminders:(id)sender {
-    [self.model sendReminders : self.reminders];
+    UIActionSheet *bottomBar = [[UIActionSheet alloc]initWithTitle:@"Sending data to server..." delegate:nil cancelButtonTitle:nil destructiveButtonTitle:nil otherButtonTitles:nil];
+    [bottomBar showInView:self.tableView];
+    [self.model sendReminders:self.reminders WithCallback:^{
+        [self performSelector:@selector(hideBottomBar:) withObject:bottomBar afterDelay:1.2];
+    }];
+}
+
+-(void)hideBottomBar:(UIActionSheet *)theBottomBar {
+    theBottomBar.title = @"data sent!";
+    [theBottomBar dismissWithClickedButtonIndex:0 animated:YES];
 }
 @end
